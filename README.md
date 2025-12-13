@@ -7,6 +7,7 @@
 1. Go to the _publication folder
 2. Duplicate the existed File and replace your new paper details with them
 3. Go to _include folder and change the ```_includes/archive-single.html```
+4. To change the each post interal page structure, visit ```_layouts/single.html```
 
 ## Adding New Certificate
 1. Add new Images here ```images``` folder

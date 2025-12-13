@@ -41,7 +41,8 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i></p>
+          <p>Published in <pre class="language-python"><i>{{ post.venue }}</i></pre></p>
+          <p>Paper Link <pre class="language-python"><i>{{ post.paperurl }}</i></pre></p>
           <p>Submitted Date <pre class="language-python"><i>{{ post.submitted_date | date: "%Y-%m-%d"}}</i></pre></p>
           <p>Accepted Date <pre class="language-python"><i>{{ post.accepted_date | date: "%Y-%m-%d"}}</i></pre></p>
           <p>Published Date <pre class="language-python"><i>{{ post.date | date: "%Y-%m-%d"}}</i></pre></p>

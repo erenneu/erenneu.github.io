@@ -70,36 +70,36 @@
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: <pre><code class="language-python">
+      <p>Recommended citation: <pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: <br/><pre><code class="language-python">
+      <p>Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: <br/><pre><code class="language-python">
+      <p>Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: <br/><pre><code class="language-python">
+      <p>Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.paperurl }}">Download Paper</a></p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: <br/><pre><code class="language-python">
+      <p>Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: <br/><pre><code class="language-python">
+      <p>Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: <br/><pre><code class="language-python">
+      <p>Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation %}
       <p>Recommended citation:
-        <pre><code class="language-python">
+        <pre class="language-python"><code >
         {{ post.citation }}
         </code></pre>
       </p>

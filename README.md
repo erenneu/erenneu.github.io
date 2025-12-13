@@ -6,6 +6,13 @@
 1. Go to the _publication folder
 2. Duplicate the existed File and replace your new paper details with them
 
+## Chaning Core Publication Page
+1. Go to _include folder and change the ```_includes/archive-single.html```
+
+## Adding New Certificate
+1. Core File is available in ```_pages/certificates.html```
+2. 
+
 
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**

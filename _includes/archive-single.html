@@ -43,6 +43,7 @@
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i></p>
           <p>Submitted Date <i>{{ post.submitted_date | date: "%Y-%m-%d"}}</i></p>
+          <p>Accepted Date <i>{{ post.accepted_date | date: "%Y-%m-%d"}}</i></p>
           <p>Published Date <i>{{ post.date | date: "%Y-%m-%d"}}</i></p>
           <div style="margin: 0.75rem 0; color: #666;">
             {% if post.volume %}

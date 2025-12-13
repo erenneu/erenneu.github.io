@@ -49,33 +49,33 @@ layout: default
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: 
-            <p class="p">Recommended citation: <pre class="language-python"><code >
+            <p class="p">Recommended citation: <pre class="language-python p"><code >
         {{ page.citation }}
         </code>
         </pre>
             <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python"><code >
+          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python p"><code >
         {{ page.citation }}
         </code>
         </pre><br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python"><code >
+          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python p"><code >
         {{ page.citation }}
         </code>
         </pre><br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python"><code >
+          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python p"><code >
         {{ page.citation }}
         </code>
         </pre><br /><a href="{{ page.paperurl }}">Download Paper</a></p>
         {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python"><code >
+          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python p"><code >
         {{ page.citation }}
         </code>
         </pre><br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python"><code >
+          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python p"><code >
         {{ page.citation }}
         </code>
         </pre><br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
@@ -84,12 +84,12 @@ layout: default
         {% elsif page.paperurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python"><code >
+          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python p"><code >
         {{ page.citation }}
         </code>
         </pre><br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python"><code >
+          <p style="font-size: smaller">Recommended citation: <p class="p">Recommended citation: <pre class="language-python p"><code >
         {{ page.citation }}
         </code>
         </pre></p>

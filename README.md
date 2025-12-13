@@ -13,6 +13,12 @@
 2. Core File is available in ```_pages/certificates.html```
 
 
+## Adding new CSS 
+1. Go to ```assets/css/main.scss``` and add the new css in the bottom
+
+
+
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

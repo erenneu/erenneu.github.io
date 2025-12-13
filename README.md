@@ -10,8 +10,9 @@
 1. Go to _include folder and change the ```_includes/archive-single.html```
 
 ## Adding New Certificate
-1. Core File is available in ```_pages/certificates.html```
-2. 
+1. Add new Images here ```images``` folder
+2. Add new Certificate Details here ```_data/certificates.yml```
+2. Core File is available in ```_pages/certificates.html```
 
 
 # Academic Pages

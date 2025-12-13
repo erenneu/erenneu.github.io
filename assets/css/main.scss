@@ -99,3 +99,8 @@
 .language-python .constant {
   color: #005cc5; /* Blue for constants */
 }
+p{
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  hyphenate-limit-chars: 6 3 2 !important;
+}

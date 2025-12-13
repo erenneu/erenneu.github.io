@@ -45,9 +45,9 @@
           <p>Submitted Date <pre class="language-python"><i>{{ post.submitted_date | date: "%Y-%m-%d"}}</i></pre></p>
           <p>Accepted Date <pre class="language-python"><i>{{ post.accepted_date | date: "%Y-%m-%d"}}</i></pre></p>
           <p>Published Date <pre class="language-python"><i>{{ post.date | date: "%Y-%m-%d"}}</i></pre></p>
-          <p>Doi <pre class="language-python"><a href="https://doi.org/{{ pub.doi }}" style="color: #3498db; text-decoration: none;">
-                {{ pub.doi }}
-              </a></pre></p>
+          <p>Doi <pre class="language-python">
+                https://doi.org/{{ pub.doi }}
+              </pre></p>
           <div style="margin: 0.75rem 0; color: #666;">
             {% if post.volume %}
               Volume {{ post.volume }}

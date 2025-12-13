@@ -24,8 +24,9 @@ redirect_from:
   - **EMPG LABS**  
   *(2 years of industry experience across three companies)*  
 
+<!--
 ### **Research & Publications**
-- 📜 **Published ESCI-Indexed Articles**  
+- 📜 **Published SCI-Indexed Articles**  
 - 🌍 **Presented at International Conferences**  
 - 🔍 **Active Peer Reviewer**  
   - Reviewed **70+ papers** across multiple scientific journals  
@@ -37,5 +38,5 @@ redirect_from:
 - 🛠️ **Full-Stack Web Development**  
 - 📊 **Research & Academic Writing**  
 - 🧑‍💻 **Open-Source Contributions** *(GitHub/Other Platforms)*  
-
+-->
 ---

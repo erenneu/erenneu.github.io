@@ -1,6 +1,7 @@
 ## Coding standards
-1. main file is available under _layouts/single.html
-1. main config file is available _config.yml
+1. Main layout file is available under ```_layouts/single.html```
+2. Main config file is available ```_config.yml```
+3. Main home index file is available in ```_pages/about.md ```
 
 ## Adding New Publication 
 1. Go to the _publication folder

@@ -46,10 +46,10 @@
           <p>Accepted Date <pre class="language-python"><i>{{ post.accepted_date | date: "%Y-%m-%d"}}</i></pre></p>
           <p>Published Date <pre class="language-python"><i>{{ post.date | date: "%Y-%m-%d"}}</i></pre></p>
           <p>Doi URL <pre class="language-python">
-                https://doi.org/{{ pub.doi }}
+                https://doi.org/{{ post.doi }}
               </pre></p>
           <p>Doi <pre class="language-python">
-                {{ pub.doi }}
+                {{ post.doi }}
               </pre></p>
           <div style="margin: 0.75rem 0; color: #666;">
             {% if post.volume %}

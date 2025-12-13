@@ -2,6 +2,10 @@
 1. main file is available under _layouts/single.html
 1. main config file is available _config.yml
 
+## Adding New Publication 
+1. Go to the _publication folder
+2. Duplicate the existed File and replace your new paper details with them
+
 
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**

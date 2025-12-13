@@ -7,7 +7,7 @@
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% assign title = post.title | markdownify | remove: "<p class="p">" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
@@ -39,15 +39,15 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="p"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <pre class="language-python"><i>{{ post.venue }}</i></pre></p>
-          <p>Paper Link <pre class="language-python"><i>{{ post.paperurl }}</i></pre></p>
-          <p>Submitted Date <pre class="language-python"><i>{{ post.submitted_date | date: "%Y-%m-%d"}}</i></pre></p>
-          <p>Accepted Date <pre class="language-python"><i>{{ post.accepted_date | date: "%Y-%m-%d"}}</i></pre></p>
-          <p>Published Date <pre class="language-python"><i>{{ post.date | date: "%Y-%m-%d"}}</i></pre></p>
-          <p>Doi URL <pre class="language-python">https://doi.org/{{ post.doi }}</pre></p>
-          <p>Doi <pre class="language-python">{{ post.doi }}</pre></p>
+          <p class="p">Published in <pre class="language-python"><i>{{ post.venue }}</i></pre></p>
+          <p class="p">Paper Link <pre class="language-python"><i>{{ post.paperurl }}</i></pre></p>
+          <p class="p">Submitted Date <pre class="language-python"><i>{{ post.submitted_date | date: "%Y-%m-%d"}}</i></pre></p>
+          <p class="p">Accepted Date <pre class="language-python"><i>{{ post.accepted_date | date: "%Y-%m-%d"}}</i></pre></p>
+          <p class="p">Published Date <pre class="language-python"><i>{{ post.date | date: "%Y-%m-%d"}}</i></pre></p>
+          <p class="p">Doi URL <pre class="language-python">https://doi.org/{{ post.doi }}</pre></p>
+          <p class="p">Doi <pre class="language-python">{{ post.doi }}</pre></p>
           <div style="margin: 0.75rem 0; color: #666;">
             {% if post.volume %}
               Volume {{ post.volume }}
@@ -69,53 +69,53 @@
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <p class="archive__item-excerpt" itemprop="description"><p class="p">{{ post.excerpt | markdownify | remove: '<p class="p">' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: <pre class="language-python"><code >
+      <p class="p">Recommended citation: <pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: <br/><pre class="language-python"><code >
+      <p class="p">Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: <br/><pre class="language-python"><code >
+      <p class="p">Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: <br/><pre class="language-python"><code >
+      <p class="p">Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.paperurl }}">Download Paper</a></p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: <br/><pre class="language-python"><code >
+      <p class="p">Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: <br/><pre class="language-python"><code >
+      <p class="p">Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: <br/><pre class="language-python"><code >
+      <p class="p">Recommended citation: <br/><pre class="language-python"><code >
         {{ post.citation }}
         </code></pre><br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation %}
-      <p>Recommended citation:
+      <p class="p">Recommended citation:
         <pre class="language-python"><code >
         {{ post.citation }}
         </code></pre>
       </p>
     {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p class="p"><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+      <p class="p"><a href=" {{ post.paperurl }} ">Download Paper</a></p>
     {% elsif post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p class="p"><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p class="p"><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
-      <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p class="p"><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
 
   </article>

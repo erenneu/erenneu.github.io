@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-_includes/recent-publications.html
+{% include recent-publications.html %}

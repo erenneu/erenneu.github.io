@@ -27,9 +27,9 @@ author:
   pronouns         : "he/him" # example: "she/her"  
   bio              : "LLMs, Medical Image Processing"
   location         : "China "
-  employer         : "Northeastern University, Chongqing University"
+  employer         : # University Name
   uri              : # URL
-  email            : "nouman.laravel@outlook.com" 
+  email            : "nouman.laravel[@@@]outlook.com" 
 
   # Academic websites
   academia         : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "nouman448" # nouman448
+  linkedin         : # nouman448
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

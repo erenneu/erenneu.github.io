@@ -8,14 +8,14 @@ redirect_from:
 ---
 
 # **Nouman**  
-📍 China | ✉ nouman.laravel@outlook.com | 🔗 [ORCID](https://orcid.org/0009-0009-0455-6034)  
+📍 ✉ nouman.laravel@outlook.com | 🔗 [ORCID](https://orcid.org/0009-0009-0455-6034)  
 
 <!-- --- -->
 
 <!-- ## **📌 Career Objective**  
 PhD Candidate specializing in **Large Language Models**, with a Master’s in **Computer Vision** and 2+ years as a Full-Stack Developer. Bridging cutting-edge AI research with scalable engineering solutions.   -->
 
-> *"Birds fly in different directions, but the sky connects them all."*  
+> *Birds fly in different directions, but the sky connects them all.*  
 
 <!-- --- -->
 
@@ -60,4 +60,4 @@ PhD Candidate specializing in **Large Language Models**, with a Master’s in **
 
 --- -->
 
-*"Code is poetry, but research is the universe whispering its secrets."*  
+*Code is poetry, but research is the universe whispering its secrets.*  

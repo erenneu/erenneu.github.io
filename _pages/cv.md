@@ -8,18 +8,18 @@ redirect_from:
 ---
 
 # **Nouman**  
-📍 Shenyang, China | ✉ nouman.laravel@outlook.com | 🔗 [ORCID](https://orcid.org/0009-0009-0455-6034)  
+📍 China | ✉ nouman.laravel@outlook.com | 🔗 [ORCID](https://orcid.org/0009-0009-0455-6034)  
 
----
+<!-- --- -->
 
-## **📌 Career Objective**  
-PhD Candidate specializing in **Large Language Models**, with a Master’s in **Computer Vision** and 2+ years as a Full-Stack Developer. Bridging cutting-edge AI research with scalable engineering solutions.  
+<!-- ## **📌 Career Objective**  
+PhD Candidate specializing in **Large Language Models**, with a Master’s in **Computer Vision** and 2+ years as a Full-Stack Developer. Bridging cutting-edge AI research with scalable engineering solutions.   -->
 
 > *"Birds fly in different directions, but the sky connects them all."*  
 
----
+<!-- --- -->
 
-## **🎓 Education**  
+<!-- ## **🎓 Education**  
 **PhD in Artificial Intelligence** (Ongoing)  
 *Northeastern University, China*  
 - Research: **LLM Optimization for Low-Resource Languages**  
@@ -28,18 +28,18 @@ PhD Candidate specializing in **Large Language Models**, with a Master’s in **
 *Chongqing University, China*  
 
 **BSc in Software Engineering**  
-*University of Agriculture, Faisalabad, Pakistan*  
+*University of Agriculture, Faisalabad, Pakistan*   -->
 
----
+<!-- --- -->
 
-## **🏆 Scholarships**  
+<!-- ## **🏆 Scholarships**  
 - **CSC Scholarship** (Master’s & PhD, China)  
 - **HEC Scholarship** (Bachelor’s, Pakistan)  
-- **Fully Funded College Scholarship** (High School)  
+- **Fully Funded College Scholarship** (High School)   -->
 
----
+<!-- --- -->
 
-## **💼 Professional Experience**  
+<!-- ## **💼 Professional Experience**  
 **Web Developer** (2020–2023)  
 *Burraq Engineering Solutions | Halo Information | EMPG LABS*  
 - Built AI-integrated web apps using **Python/Django/Laravel/Blade + React**.  
@@ -58,6 +58,6 @@ PhD Candidate specializing in **Large Language Models**, with a Master’s in **
 - Published **ESCI-indexed papers** on LLM efficiency.  
 - Peer-reviewed **70+ manuscripts** for top-tier AI conferences.  
 
----
+--- -->
 
 *"Code is poetry, but research is the universe whispering its secrets."*  

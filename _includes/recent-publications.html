@@ -36,6 +36,19 @@
               ({{ pub.date | date: "%Y" }})
             {% endif %}
           </div>
+          <div style="margin: 0.75rem 0; color: #666;">
+            <strong style="color: #2c3e50;"></strong>
+            {% if pub.submitted_date %}
+               Submitted Date {{ pub.submitted_date }}
+            {% endif %}
+            {% if pub.accepted_date %}
+              Accepted Date {{ pub.accepted_date }}
+            {% endif %}
+            {% if pub.date %}
+               Published Date. {{ pub.date }}
+            {% endif %}
+            
+          </div>
           
           <!-- DOI and Links -->
           <div style="margin: 0.75rem 0; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">

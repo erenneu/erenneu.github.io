@@ -39,13 +39,13 @@
           <div style="margin: 0.75rem 0; color: #666;">
             <strong style="color: #2c3e50;"></strong>
             {% if pub.submitted_date %}
-               <strong style="color: #2c3e50;">Submitted Date</strong> {{ pub.submitted_date }}
+               <strong style="color: #2c3e50;">Submitted Date</strong> {{ pub.submitted_date | date: "%Y-%m-%d"}}
             {% endif %}
             {% if pub.accepted_date %}
-              ,<strong style="color: #2c3e50;">Accepted Date</strong> {{ pub.accepted_date }}
+              ,<strong style="color: #2c3e50;">Accepted Date</strong> {{ pub.accepted_date | date: "%Y-%m-%d"}}
             {% endif %}
             {% if pub.date %}
-               ,<strong style="color: #2c3e50;">Published Date</strong>  {{ pub.date }}
+               ,<strong style="color: #2c3e50;">Published Date</strong>  {{ pub.date | date: "%Y-%m-%d"}}
             {% endif %}
             
           </div>

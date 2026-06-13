@@ -6,7 +6,7 @@
     {% assign recent_pubs = site.publications | sort: 'date' | reverse %}
     
     <div class="publications-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
-      {% for pub in recent_pubs limit:5 %}
+      {% for pub in recent_pubs limit:205 %}
         <div class="publication-item" style="background: white; padding: 1.75rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-left: 4px solid #3498db;">
           <!-- Publication Title -->
           <h3 style="margin-top: 0; margin-bottom: 0.75rem; color: #2c3e50;">
